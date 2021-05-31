@@ -1,0 +1,5 @@
+Introduction/Business Problem:
+BeGone International is looking to recommend destinations to its New York customer base. This company is going to data science approach to identify destinations based on venue recommendations.
+
+Data:
+The company will leverage public accessible sources for the location data, i.e. from FourSquare, Wikipedia [Toronto zip codes] and list of New York boroughs [acquired from via Cognitive AI Lab].
