@@ -2,12 +2,15 @@ Introduction:
 BeGone International, a travel service company is using its travel marketing media content to recommend local destinations. 
 Currently the company's research team is demonstrating a comparison of the destination locations for its New York residents. 
 For this evaluation, we are using Toronto, Canada as the recommended destinations for residents of  New York City, New York.
-This comparison exercise will help to advertise and promote these destinations to potential NYC travelers, into its next edition. 
+This comparison exercise will help to advertise and promote these destinations to potential NYC travelers, into its next edition.
+For the approach, the recommendation solution will leverage a clustering approach of the venues within the postal codes to identify similarities, as these similarities will be used to inform the destination recommendation.
 The effort is to identify the similarities between these destinations.
 The audience are the potential travelers and the stakeholders for this evaluation are BeGone company editors and executives that would be endorsing the information for this company's next media release.
 The value of this activity enhances the company's ability to provide recommendations, to demonstrate its analytics and data science capability in using location data and to promote venues and businesses operating in these destinations.
 
 Data:
 For this comparison exercise, the evaluation is using public accessible data using zip codes information for the destination Toronto and New York City.
+Location information on the 2 locations will be acquired from Python (geopy) libraries
 Venue information within these locations will be captured into the data sets using Foursquare Place API.
+The use of maps and graphs will be used to inform and verify analysis in the given activity, usign Python libraries.
 Venue information will be used to inform the comparison activity between these 2 locations.
